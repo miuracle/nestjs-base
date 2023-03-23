@@ -1,0 +1,6 @@
+{
+  "SYSTEM_ERROR": "System error exception",
+  "UNAUTHORIZE": "Unauthorize",
+  "FORBIDDEN": "No perrmission",
+  "BAD_REQUEST": "Invalid input"
+}

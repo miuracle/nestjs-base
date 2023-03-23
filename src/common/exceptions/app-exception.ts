@@ -14,7 +14,7 @@ export class AppException extends HttpException {
     this.statusCode = status;
   }
 
-  static off(errorCode: string, errorData?: any): AppException {
+  static error(errorCode: string, errorData?: any): AppException {
     return new AppException(errorCode, null, errorData);
   }
 }

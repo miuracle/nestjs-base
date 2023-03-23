@@ -19,7 +19,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@db/*": ["src/database"],
+      "@db/*": ["src/database/*"],
       "@base/*": ["src/common/base/*"],
       "@constants/*": ["src/common/constants/*"],
       "@decorators/*": ["src/common/decorators/*"],
@@ -28,7 +28,8 @@
       "@common/*": ["src/common/*"],
       "@guards/*": ["src/guards/*"],
       "@shared/*": ["src/shared/*"],
-      "@modules/*": ["src/modules/*"]
+      "@modules/*": ["src/modules/*"],
+      "@middlewares/*": ["src/middleware/*"]
     }
   }
 }
